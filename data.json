@@ -1,0 +1,21 @@
+{
+  "books": [
+    {
+      "author": "Jack Kerouac",
+      "read": true,
+      "title": "On the Road"
+    },
+    {
+      "author": "J. K. Rowling",
+      "read": false,
+      "title": "Harry Potter and the Philosopher's Stone"
+    },
+    {
+      "author": "Dr. Seuss",
+      "read": true,
+      "title": "Green Eggs and Ham"
+    }
+  ],
+  "status": "success"
+}
+
