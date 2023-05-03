@@ -20,6 +20,17 @@ def create_app():
     def ping_pong():
         return jsonify('pong o/')
 
+    # debug purposes
+    # > check how the data is being received
+    #   from the client
+    @app.route('/endpoint', methods=['POST'])
+    def endpoint():
+        data = request.get_json()
+        print(data)
+        # process the data
+        return 'OK'
+
+
     @app.route('/books', methods=['GET', 'POST'])
     def all_books():
         #response object, first item status
